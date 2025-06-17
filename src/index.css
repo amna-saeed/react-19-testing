@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.form-box{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+}
+input.from-wrap{
+    text-align: center;
+    border: 1px solid gray;
+    padding: 10px;
+    font-size: 17px;
+    margin: 7px 17px;
+    width: 25%;
+}
+.error{
+    border: 2px solid red !important;
+    padding: 2px;
+
+}
+.error:focus{
+    outline:red !important;
+}
